@@ -153,7 +153,7 @@ section {
   margin: 0 10vw;
 }
 
-/* Profile section */
+/* Hero section */
 
 #hero {
   display: flex;
@@ -228,6 +228,30 @@ section {
   border-radius: 2rem;
   border: #7c3aed solid 0.1rem;
   text-align: center;
+}
+
+/* Projects section */
+.projects-containers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem 10vw;
+}
+
+.project-img {
+  height: 250px;
+}
+
+#projects {
+  position: relative;
+}
+
+.project-title {
+  margin: 1rem;
+}
+
+.project-description {
+  margin: 1rem;
 }
 
 /* Icons */
