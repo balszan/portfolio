@@ -393,10 +393,15 @@ footer p {
 
   .project-img {
     max-width: 70vw;
+    margin: 10vw;
   }
 
   #about .title,
   #projects .title {
     margin-top: 3rem;
+  }
+
+  .contact-container {
+    margin: 10vw;
   }
 }
