@@ -143,9 +143,8 @@ nav {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
   margin: 0 10rem;
-  min-height: fit-content;
+  min-height: 96vh;
 }
 
 .section-container {
@@ -252,6 +251,47 @@ section {
 
 .project-description {
   margin: 1rem;
+}
+
+/* Contact section */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  border: #7c3aed solid 0.1rem;
+  border-radius: 2rem;
+  margin: 2rem auto;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-detail {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.contact-detail .icon {
+  margin: 10px;
+}
+
+.contact-detail a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Footer */
+
+footer p {
+  text-align: center;
+  padding: 1rem;
 }
 
 /* Icons */
