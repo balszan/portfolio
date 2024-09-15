@@ -233,14 +233,30 @@ section {
   border-radius: 2rem;
   border: #7c3aed solid 0.1rem;
   text-align: center;
+  max-width: 800px;
+}
+
+.skills p {
+  width: fit-content;
+  margin: auto;
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+
+.skills {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* Projects section */
 .projects-containers {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 2rem;
-  margin: 2rem 10vw;
+  margin: 3rem 10vw 0;
+  align-items: center;
 }
 
 .project-img {
@@ -311,6 +327,10 @@ footer p {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+}
+
+i {
+  font-size: 2.5rem;
 }
 
 /* Buttons */
@@ -398,5 +418,16 @@ footer p {
   #about .title,
   #projects .title {
     margin-top: 3rem;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+  }
+
+  .section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 10vw;
   }
 }
