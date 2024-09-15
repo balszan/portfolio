@@ -158,7 +158,10 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+}
+
+.karolina {
+  color: #7c3aed;
 }
 
 .section__pic-container {
@@ -189,7 +192,6 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
-  color: #7c3aed;
 }
 
 #socials-container {
@@ -214,6 +216,10 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+}
+
+.text-container {
+  padding: 1rem;
 }
 
 .about-containers,
@@ -365,5 +371,32 @@ footer p {
 
   #hamburger-nav {
     display: flex;
+  }
+
+  #hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-pic {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  section {
+    margin: 0;
+  }
+
+  .about-containers {
+    flex-direction: column;
+  }
+
+  .project-img {
+    max-width: 70vw;
+  }
+
+  #about .title,
+  #projects .title {
+    margin-top: 3rem;
   }
 }
