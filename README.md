@@ -1,4 +1,6 @@
-# Portfolio Website
+#<img width="1243" alt="Screenshot 2024-09-15 at 13 22 30" src="https://github.com/user-attachments/assets/81a4cb42-f7ec-4f6f-8fff-d31797b31572">
+ 
+ Portfolio Website
 
 A responsive portfolio website showcasing my projects and skills as a full stack developer. It features sections for about me, projects, and contact information.
 
