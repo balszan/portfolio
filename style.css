@@ -451,4 +451,8 @@ i {
     display: flex;
     flex-direction: column;
   }
+
+  .arrow {
+    display: none;
+  }
 }
